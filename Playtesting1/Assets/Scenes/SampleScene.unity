@@ -1087,7 +1087,7 @@ MonoBehaviour:
   - {fileID: 428126184}
   sounds:
   - audioClip: {fileID: 8300000, guid: 1361dced1d52e0f458354b925bb724a9, type: 3}
-    audioVolume: 1
+    audioVolume: 0.9
     audioPitch: 1
     audioPitchRandomness: 0
     loopAudio: 0
