@@ -516,6 +516,36 @@ MonoBehaviour:
     audioPitch: 1
     audioPitchRandomness: 0
     loopAudio: 0
+  - audioClip: {fileID: 8300000, guid: 647b26979dd6d7447916c6f19b9f55ed, type: 3}
+    audioVolume: 1
+    audioPitch: 1
+    audioPitchRandomness: 0
+    loopAudio: 0
+  - audioClip: {fileID: 8300000, guid: f8b6282139e92e746a0d82b37f212518, type: 3}
+    audioVolume: 1
+    audioPitch: 1
+    audioPitchRandomness: 0
+    loopAudio: 0
+  - audioClip: {fileID: 8300000, guid: ebd8ca1ac8ac3ce44b2bed597f1a3729, type: 3}
+    audioVolume: 1
+    audioPitch: 1
+    audioPitchRandomness: 0
+    loopAudio: 0
+  - audioClip: {fileID: 8300000, guid: db22f55af4705ff48a69545fc2e242c6, type: 3}
+    audioVolume: 1
+    audioPitch: 1
+    audioPitchRandomness: 0
+    loopAudio: 0
+  - audioClip: {fileID: 8300000, guid: 36e760269c375dc4ea79d7d3ed90a5ba, type: 3}
+    audioVolume: 1
+    audioPitch: 1
+    audioPitchRandomness: 0
+    loopAudio: 0
+  - audioClip: {fileID: 8300000, guid: 6492f079aee97194da0d835323431e45, type: 3}
+    audioVolume: 1
+    audioPitch: 1
+    audioPitchRandomness: 0
+    loopAudio: 0
   spawnItemsOnStateEnter: 0
   itemSpawnMode: 0
   itemSpawnPoint: {x: 0, y: 0, z: 0}
@@ -575,6 +605,11 @@ MonoBehaviour:
     audioPitchRandomness: 0
     loopAudio: 0
   - audioClip: {fileID: 8300000, guid: 8760860d90baa9549ae9c70e276bb784, type: 3}
+    audioVolume: 1
+    audioPitch: 1
+    audioPitchRandomness: 0
+    loopAudio: 0
+  - audioClip: {fileID: 8300000, guid: 61779b241f74a384ebf4ffd74585f786, type: 3}
     audioVolume: 1
     audioPitch: 1
     audioPitchRandomness: 0
@@ -3251,12 +3286,11 @@ MonoBehaviour:
   subTriggers: []
   ownsObjectFinder: 0
   objectFinder:
-    useCustomTags: 1
-    tags:
-    - MainCamera
+    useCustomTags: 0
+    tags: []
     cachePoint: 0
   invertResult: 0
-  distanceThreshold: 18
+  distanceThreshold: 40
   negotiationMode: 0
 --- !u!114 &1206293070
 MonoBehaviour:
@@ -3423,7 +3457,7 @@ MonoBehaviour:
   - {fileID: 1202466386}
   sounds:
   - audioClip: {fileID: 8300000, guid: 7f3b4cc0dd295f341a6a4d2b37519b0a, type: 3}
-    audioVolume: 7.5
+    audioVolume: 0.5
     audioPitch: 1
     audioPitchRandomness: 0
     loopAudio: 1
@@ -3472,7 +3506,12 @@ MonoBehaviour:
   animationStatesComponent: {fileID: 538045088}
   animationStates:
   - {fileID: 1202466386}
-  sounds: []
+  sounds:
+  - audioClip: {fileID: 0}
+    audioVolume: 0
+    audioPitch: 0
+    audioPitchRandomness: 0
+    loopAudio: 0
   spawnItemsOnStateEnter: 0
   itemSpawnMode: 0
   itemSpawnPoint: {x: 0, y: 0, z: 0}
