@@ -21,6 +21,7 @@ public class CreateAI : MonoBehaviour
         if (stopSpawing)
         {
             CancelInvoke("SpawnObject");
+            
         }
     }
 }
