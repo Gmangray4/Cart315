@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 3604210577000565043}
   - component: {fileID: 3604210577000565042}
   - component: {fileID: 3604210577000565041}
-  - component: {fileID: 3604210578136232780}
+  - component: {fileID: 4984208325208441243}
+  - component: {fileID: 1725608748073858924}
   m_Layer: 0
   m_Name: AI -  Hunters
   m_TagString: Untagged
@@ -135,7 +136,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3604210578136232780
+--- !u!64 &4984208325208441243
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3604210577000565040}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
+--- !u!114 &1725608748073858924
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,11 +159,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3604210577000565040}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aedb4a16e7d940245bc819e1729653d7, type: 3}
+  m_Script: {fileID: 11500000, guid: bad33ac0c3b0a2349a8efb9c9fdd8ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  respawnPoint: {fileID: 0}
 --- !u!1 &3604210577513213637
 GameObject:
   m_ObjectHideFlags: 0
